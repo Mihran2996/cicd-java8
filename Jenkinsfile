@@ -11,6 +11,6 @@ node{
   stage('Email-Notification'){
     //for this i created App Password in gmail and puted it jenkins config
     mail bcc: '', body: '''Hi Mihran, Welcome To Jenkins.
-    gith-with-maven build passed successed !''', cc: '', from: '', replyTo: '', subject: 'gith-with-maven', to: 'maruqyanmihran@gmail.com'
+    gith-with-maven build passed success !''', cc: '', from: 'JENKINS', replyTo: '', subject: 'gith-with-maven', to: 'maruqyanmihran@gmail.com'
   }
 }
