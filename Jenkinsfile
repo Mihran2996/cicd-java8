@@ -9,6 +9,7 @@ node{
     sh "${mvnHome}/bin/mvn package"
   }
   stage('Email-Notification'){
+    //for this i created App Password in gmail and puted it jenkins config
     mail bcc: '', body: '''Hi Mihran, Welcome To Jenkins.
     Your job has started. Thanks!''', cc: '', from: '', replyTo: '', subject: 'Jenkins Job', to: 'maruqyanmihran@gmail.com'
   }
