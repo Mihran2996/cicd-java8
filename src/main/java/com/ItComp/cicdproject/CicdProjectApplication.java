@@ -15,7 +15,7 @@ public class CicdProjectApplication {
 
     @GetMapping("/home")
     public String homePage() {
-        return "Hello from Java!"
+        return "Hello from Java!";
     }
 
 }
