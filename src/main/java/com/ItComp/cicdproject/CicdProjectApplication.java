@@ -16,7 +16,7 @@ public class CicdProjectApplication {
     @GetMapping("/home")
     public String homePage() {
         System.out.println("homePage method is called...");
-        return " Hello from Java! ";
+        return "Hello from Java!   ";
     }
 
 }
